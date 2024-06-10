@@ -7,6 +7,8 @@ COPY . .
 
 RUN npm install
 
+ENV AWS_SECRET_ACCESS_KEY= asdfawerfasdas4r8w4asdfasefw4r
+
 # Expose port 3000 from the container
 EXPOSE 3000 
 
